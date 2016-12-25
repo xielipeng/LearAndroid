@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_refresh"
+        android:checkable="false"
+        android:title=""
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_scan"
+        android:title="Scan"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/menu_stop"
+        android:title="Scan"
+        app:showAsAction="ifRoom|withText"/>
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="org.xielipeng.appwidget">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <receiver android:name=".MyWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="org.xlp.widget.UPDATE_ALL"/> <!-- 自定义的action,为了接收服务发送的更新图片的广播 -->
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/example_app_widget_provider_info"/>
+        </receiver>
+
+        <service
+            android:name=".MyWidgetService"
+            android:enabled="true"
+            android:exported="true"></service>
+    </application>
+
+</manifest>

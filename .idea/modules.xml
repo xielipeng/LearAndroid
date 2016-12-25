@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LearAndroid.iml" filepath="$PROJECT_DIR$/LearAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appwidget/appwidget.iml" filepath="$PROJECT_DIR$/appwidget/appwidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bluetoothbledemo/bluetoothbledemo.iml" filepath="$PROJECT_DIR$/bluetoothbledemo/bluetoothbledemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bluetoothdemo/bluetoothdemo.iml" filepath="$PROJECT_DIR$/bluetoothdemo/bluetoothdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/geoquiz/geoquiz.iml" filepath="$PROJECT_DIR$/geoquiz/geoquiz.iml" />
+    </modules>
+  </component>
+</project>
